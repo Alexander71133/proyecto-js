@@ -1,0 +1,16 @@
+body {
+  font-family: a, sans-serif;
+  background-color: blanchedalmond);
+  text-align: center;
+}
+
+h1 {
+  color: tomato;
+}
+p {
+  color: blue;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}

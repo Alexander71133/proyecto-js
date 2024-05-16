@@ -1,0 +1,46 @@
+#titulo {
+    color: tomato;
+}
+p.especial {
+    color: yellow;
+}
+p.Texto {
+    color: slateblue;
+}
+
+
+div p{
+    color: aquamarine;
+}
+
+div h2, div h3{
+    color: brown;
+}
+
+/* Estaba tratando de cambiar el color */ 
+
+/*.color{
+    color: #ff0000 ;
+}
+.color{
+    color: rgb(255, 50, 100);
+}
+*/
+.color{
+     /* border: 5px red outset; */
+        /*dotted
+        dashed
+        solid
+        double
+        groove
+        ridge
+        inset
+        outset
+        none
+        hidden
+    */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5px;
+}
