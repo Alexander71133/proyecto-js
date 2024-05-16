@@ -17,6 +17,11 @@ div h2, div h3{
     color: brown;
 }
 
+*{
+    font-size: 24px;
+    /* color:black */
+}
+
 /* Estaba tratando de cambiar el color */ 
 
 /*.color{
@@ -42,5 +47,134 @@ div h2, div h3{
     border-style: solid;
     border-color: blue;
     border-radius: 5px;
-    border-width: 5px;
+    border-width: 2rem;
 }
+
+#fondo{
+    background-color: rgba(255, 0, 0);
+    /* opacity: 0.3; */
+    height: 200px;
+    background: #f00 url(Alexander.jpeg) repeat-y center bottom / 100px 100px;
+        
+}
+
+.margen{
+    background-color: chocolate;
+    margin: 15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px;
+    border: solid black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+    }
+
+    .text{
+        font-family: "roboto", sans-serif;
+       text-align: justify; 
+       text-decoration: underline ;
+       text-shadow: 3px 5px  5px blue ;
+    }
+
+    a:link{
+        color:blueviolet
+    }
+
+    a:visited{
+        color: gray;
+    }
+
+    a:hover{
+        color:yellow;
+    }
+
+    a:active{
+        color:red;
+    }
+
+    ul{
+        background-color: cyan;
+        list-style-type: georgian;
+        /* padding-left: 0; */
+        /* list-style-position: inside; */
+    }
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td{
+        border: solid 1px #eee;
+        padding: 5px;
+    }
+
+    th{
+        background-color: tomato;
+        color: white;
+        text-align: left;
+    }
+
+    tr:nth-child(even){
+        background-color: #eee;
+    }
+
+    tr:hover{
+        background-color: #aaa;
+        color:chartreuse;
+        cursor: pointer;
+    }
+
+    
+    span{
+        display:block;
+        /* display: none; */
+        /* visibility: hidden; */
+        max-width: 300px;
+        background-color: #f00;
+    }
+
+    .inline{
+        display: inline;
+    } 
+
+    #position{
+        position: sticky;
+        left: 20px;
+        top: 25px;
+    }
+
+    .left{
+        float:left;
+        width: 200px;
+        height: 200px;
+    }
+
+    .rigth{
+        float: right;
+    }
+    .container {
+        height: 200px;
+    }
+
+    .column{
+        
+        margin: 0;
+        padding: 10px 0px;
+        width: 33.3%;
+    }
+
+    .inline-block{
+        display: inline-block;
+        height: 55px;
+        background-color: red;
+
+    }
+
+    .center{
+        padding: 50px 0;
+        text-align: center;
+        width: 200px;
+        margin: 0 auto;
+        background-color: aqua;
+    }
